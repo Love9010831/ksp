@@ -52,4 +52,5 @@ signing {
     sign(extensions.getByType<PublishingExtension>().publications)
 }
 
-configureMetalava()
+configureMetalava(
+$ admin.initializeApp();
